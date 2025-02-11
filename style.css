@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--grey);
+  margin: 0px;
 }
 
 :root {
@@ -43,16 +44,16 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--white);
-  width: 75%;
-  margin: 50px auto;
+  width: 1100px;
+  margin: 50px auto 0px auto;
   border-radius: 5px;
   position: relative;
 }
 
 .deco {
   position: absolute;
-  top: 10%;
-  right: 46.5%;
+  top: 40px;
+  right: 515px;
   text-align: center;
   width: 70px;
   border-bottom: 5px solid var(--red);
@@ -91,4 +92,60 @@ nav a:hover {
   width: 100%;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1100px;
+  margin: 0px auto 50px auto;
+}
+
+.section-2 h2 {
+  color: var(--dark-grey);
+  font-size: 64px;
+  text-align: end;
+  align-self: center;
+  padding-right: 40px;
+}
+
+.vantagens {
+  width: 550px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.vantagens div {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+  padding: 20px 80px;
+}
+
+.vantagens div img {
+  justify-self: end;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.vantagens div p {
+  grid-column: 2;
+  place-self: start;
+}
+
+.titulo {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.descricao {
+  margin: 0;
+}
+
+footer {
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  padding: 20px;
 }
