@@ -21,9 +21,10 @@ header {
   text-align: center;
 }
 
-header h1 {
+header img {
   margin: 40px;
   font-size: 40px;
+  width: 150px;
 }
 
 nav a {
@@ -91,7 +92,6 @@ nav a:hover {
   grid-column: 2 / 3;
   width: 100%;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 .section-2 {
@@ -112,7 +112,7 @@ nav a:hover {
 .vantagens {
   width: 550px;
   background-color: var(--white);
-  border-radius: 5px;
+  border-bottom: 5px;
 }
 
 .vantagens div {
